@@ -71,3 +71,20 @@ function openM(id){
 }
 function closeM(e){if(e.target===document.getElementById('modal'))document.getElementById('modal').classList.remove('open');}
 document.addEventListener('keydown',e=>{if(e.key==='Escape')document.getElementById('modal').classList.remove('open');});
+
+const toggle = document.getElementById('menu-toggle');
+const menu = document.getElementById('nav-menu');
+
+toggle.addEventListener('click', () => {
+  toggle.classList.toggle('active');
+  menu.classList.toggle('active');
+});
+
+/* CLOSE MENU WHEN CLICKING LINK */
+
+document.querySelectorAll('.nav-menu a').forEach(link => {
+  link.addEventListener('click', () => {
+    toggle.classList.remove('active');
+    menu.classList.remove('active');
+  });
+});
