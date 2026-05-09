@@ -32,7 +32,7 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:190;ba
 nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.75rem 3.5rem;display:flex;align-items:center;justify-content:space-between;background:rgba(6,10,6,0.8);backdrop-filter:blur(16px);border-bottom:1px solid var(--border);}
 .nav-name{font-family:'Bebas Neue',sans-serif;font-size:2.7rem;letter-spacing:0.1em;color:var(--green);text-decoration:none;text-shadow:0 0 14px var(--green-glow);}
 .nav-menu{display:flex;gap:3rem;list-style:none;}
-.nav-menu a{font-family:'DM Mono',monospace;font-size:0.9rem;font-weight: 600; color:whitesmoke ; letter-spacing:0.2em;text-transform:uppercase;color:var(--muted);text-decoration:none;transition:color 0.3s,text-shadow 0.3s;}
+.nav-menu a{font-family:'DM Mono',monospace;font-size:0.5rem;font-weight: 600; color:whitesmoke ; letter-spacing:0.2em;text-transform:uppercase;color:var(--muted);text-decoration:none;transition:color 0.3s,text-shadow 0.3s;}
 .nav-menu a:hover{color:var(--green);text-shadow:0 0 10px var(--green-glow);}
 .nav-avail{font-family:'DM Mono',monospace;font-size:0.58rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--green);display:flex;align-items:center;gap:0.5rem;text-shadow:0 0 8px var(--green-glow);}
 .avail-dot{width:5px;height:5px;border-radius:50%;background:var(--green);box-shadow:0 0 6px var(--green);animation:breathe 2.5s ease-in-out infinite;}
